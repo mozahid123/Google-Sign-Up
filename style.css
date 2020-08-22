@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+.left{
+    text-align:left;
+}
+.part1 {
+	height: 526px;
+	width: 750px;
+	border: 1px solid black;
+	border-radius: 9px;
+    margin: 3% 21%;
+  
+}
+.ba {
+	text-align: left;
+	margin-top: 32px;
+	margin-bottom: 12px;
+}
+.aa{
+    
+
+    float: left;
+    width: 48%;
+    width: 450px;
+    margin-left: 38px;
+}
+.ba img{
+
+}
+.aa h1 {
+	text-align: left;
+	font-size: 26px;
+	font-weight: 400;
+	margin-bottom: 47px;
+}
+.ca{
+    width: 419px;
+    height: 100px;
+    margin-top: 20px;
+}
+.first {
+	width: 174px;
+	height: 34px;
+	border-radius: 6px;
+	margin-bottom: 12px;
+	border-color: #bdc7d8;
+	font-size: 20px;
+	padding: 0 9px;
+}
+.second {
+	width: 374px;
+	height: 32px;
+	border-radius: 6px;
+	margin-bottom: 12px;
+	border-color: #bdc7d8;
+	font-size: 20px;
+	padding: 0 9px;
+}
+.third{
+    width: 150px;
+	height: 32px;
+	border-radius: 6px;
+	margin-bottom: 12px;
+	border-color: #bdc7d8;
+	font-size: 20px;
+	padding: 0 9px;
+}
+.ja i {
+	font-size: 28px;
+	color: gray;
+	margin-left: 4px;
+}
+
+.da{
+
+}
+.da a {
+	text-decoration: none;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 41px;
+	color: #1a73e8;
+}
+.ea p {
+	margin-left: 0px;
+	color: black;
+	font-size: 12px;
+}
+.fa a {
+	text-decoration: none;
+	margin-top: 21px;
+    display: block;
+    color: #1a73e8;
+}
+.ga {
+	margin-top: 24px;
+}
+.ha{
+    float: left;
+}
+.ha a{
+    text-decoration: none;
+    color: #1a73e8;
+}
+.ia{
+    float: right;
+}
+.ia a {
+	text-decoration: none;
+	color: white;
+	background: #1a73e8;
+	padding: 7px 29px;
+    border-radius: 5px;
+    background-color: #1a73e8;
+    margin-right: 51px;
+}
+.ja{
+  margin-top: 20px;
+}
+
+.ac {
+	float: right;
+    width: 41%;
+    width: 250px;
+	margin-top: 97px;
+}
+.ac img{
+   
+}
+
+.part2 {
+	margin: -1% 15%;
+	height: 40px;
+}
+.ab {
+	float: left;
+	margin-left: 75px;
+}
+.ab ul li{
+     display: inline-block;
+     position: relative;
+}
+.ab ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 13px;
+}
+.ab ul li ul {
+	position: absolute;
+	left: 0;
+	top: -92px;
+	width: 40px;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.4s;
+	transform: scaleY(0);
+	transform-origin: top center;
+    background: white;
+    display: block;
+}
+.ab ul li ul li{
+    display: block;
+
+    
+}
+.ab ul li ul li:hover{
+    background-color: gray;
+}
+.ab ul li ul a{
+    display: block;
+   
+}
+.ab ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    transform: scaleY(1);
+}
+.pp{
+
+}
+.bb{
+ float: right;
+}
+.bb ul {
+	margin-right: 53px;
+}
+.bb ul li {
+	display: inline-block;
+	margin-left: 13px;
+	font-size: 13px;
+	color: black;
+}
+.bb ul li a{
+    text-decoration: none;
+    color: black;
+}
+
